@@ -1,0 +1,2556 @@
+============================================================
+INFORMACOES DA MAQUINA - EXPERIMENTO QUICKSORT BITWISE
+============================================================
+Coleta em: 2026-11-18 22:46:41 (horario local)
+Host: ubuntu
+Fabricante do equipamento: LENOVO
+Modelo do equipamento: 81TR
+Processador: Intel(R) Core(TM) i5-9300HF CPU @ 2.40GHz
+Processadores logicos: 8
+Memoria RAM fisica total: 7.66 GiB
+Sistema operacional: Ubuntu 24.04.5 LTS
+Kernel/versao base: Linux 7.0.0-43-generic
+Arquitetura: x86_64
+Cache L1 (dados/instrucoes/unificada, por instancia): 32.00 KiB / 32.00 KiB / indisponivel
+Cache L2 (dados/instrucoes/unificada, por instancia): indisponivel / indisponivel / 256.00 KiB
+Cache L3 (dados/instrucoes/unificada, por instancia): indisponivel / indisponivel / 8.00 MiB
+Compilador C: 13.3.0
+Observacao: campos indisponiveis nao foram fornecidos pela API/sistema operacional.
+============================================================
+
+================ FASE: TXT - RESULTADOS DETALHADOS ================
+[progresso] TXT - RESULTADOS DETALHADOS | teste 1/15 | N=100 | 10 repeticao(oes) por nivel (3 niveis)
+[cond] condicoes.h versao 2
+[cond] processo fixado no nucleo 5
+[cond] AVISO: sem permissao para subir prioridade (rode com sudo se quiser)
+[cond] huge pages transparentes desligadas neste processo (paginas de 4 KiB)
+[cond] CPU aquecida por 300 ms
+[cond] menor intervalo entre duas leituras do relogio: 13 ns (tempos proximos disso sao ruido)
+[cond] governador de frequencia: powersave
+[cond] frequencia atual do nucleo: 4100 MHz
+[cond] turbo: ligado
+[cond] carga do sistema (1 min): 0.91 em 8 nucleos  <-- AVISO: ha outros programas rodando, feche-os
+[cond] caches: L1d=32 KiB | L2=256 KiB | L3=8192 KiB
+[exp] quicksort | N=100 | reps=10 | chaves_extremas=100% | ordem=rotativa | entrada=varia a cada repeticao
+rep=1 | nivel=nenhum | N=100 | ordem_da_rep=nenhum,moderado,alto
+  tempo=3374 ns (0.0034 ms) | freq=4099 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=moderado | N=100 | ordem_da_rep=nenhum,moderado,alto
+  tempo=3681 ns (0.0037 ms) | freq=4099 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=alto | N=100 | ordem_da_rep=nenhum,moderado,alto
+  tempo=3414 ns (0.0034 ms) | freq=4099 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=moderado | N=100 | ordem_da_rep=moderado,alto,nenhum
+  tempo=3153 ns (0.0032 ms) | freq=4099 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=alto | N=100 | ordem_da_rep=moderado,alto,nenhum
+  tempo=3042 ns (0.0030 ms) | freq=4100 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=nenhum | N=100 | ordem_da_rep=moderado,alto,nenhum
+  tempo=3229 ns (0.0032 ms) | freq=4099 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=alto | N=100 | ordem_da_rep=alto,nenhum,moderado
+  tempo=3232 ns (0.0032 ms) | freq=4099 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=nenhum | N=100 | ordem_da_rep=alto,nenhum,moderado
+  tempo=3287 ns (0.0033 ms) | freq=4100 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=moderado | N=100 | ordem_da_rep=alto,nenhum,moderado
+  tempo=3233 ns (0.0032 ms) | freq=4099 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=nenhum | N=100 | ordem_da_rep=nenhum,moderado,alto
+  tempo=3142 ns (0.0031 ms) | freq=4100 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=moderado | N=100 | ordem_da_rep=nenhum,moderado,alto
+  tempo=2947 ns (0.0029 ms) | freq=4099 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=alto | N=100 | ordem_da_rep=nenhum,moderado,alto
+  tempo=3359 ns (0.0034 ms) | freq=4100 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=moderado | N=100 | ordem_da_rep=moderado,alto,nenhum
+  tempo=3300 ns (0.0033 ms) | freq=4096 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=alto | N=100 | ordem_da_rep=moderado,alto,nenhum
+  tempo=3479 ns (0.0035 ms) | freq=4099 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=nenhum | N=100 | ordem_da_rep=moderado,alto,nenhum
+  tempo=3218 ns (0.0032 ms) | freq=4100 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=alto | N=100 | ordem_da_rep=alto,nenhum,moderado
+  tempo=3195 ns (0.0032 ms) | freq=4100 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=nenhum | N=100 | ordem_da_rep=alto,nenhum,moderado
+  tempo=3154 ns (0.0032 ms) | freq=4099 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=moderado | N=100 | ordem_da_rep=alto,nenhum,moderado
+  tempo=3487 ns (0.0035 ms) | freq=4098 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=nenhum | N=100 | ordem_da_rep=nenhum,moderado,alto
+  tempo=2829 ns (0.0028 ms) | freq=4099 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=moderado | N=100 | ordem_da_rep=nenhum,moderado,alto
+  tempo=3153 ns (0.0032 ms) | freq=3999 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=alto | N=100 | ordem_da_rep=nenhum,moderado,alto
+  tempo=3230 ns (0.0032 ms) | freq=4000 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=moderado | N=100 | ordem_da_rep=moderado,alto,nenhum
+  tempo=3341 ns (0.0033 ms) | freq=3999 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=alto | N=100 | ordem_da_rep=moderado,alto,nenhum
+  tempo=3550 ns (0.0036 ms) | freq=4000 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=nenhum | N=100 | ordem_da_rep=moderado,alto,nenhum
+  tempo=3353 ns (0.0034 ms) | freq=3999 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=alto | N=100 | ordem_da_rep=alto,nenhum,moderado
+  tempo=3230 ns (0.0032 ms) | freq=4099 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=nenhum | N=100 | ordem_da_rep=alto,nenhum,moderado
+  tempo=3318 ns (0.0033 ms) | freq=4003 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=moderado | N=100 | ordem_da_rep=alto,nenhum,moderado
+  tempo=3215 ns (0.0032 ms) | freq=3999 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=nenhum | N=100 | ordem_da_rep=nenhum,moderado,alto
+  tempo=3151 ns (0.0032 ms) | freq=3999 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=moderado | N=100 | ordem_da_rep=nenhum,moderado,alto
+  tempo=3117 ns (0.0031 ms) | freq=4000 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=alto | N=100 | ordem_da_rep=nenhum,moderado,alto
+  tempo=3272 ns (0.0033 ms) | freq=3999 MHz
+  espaco: vetor=400 B | pilha_pico=240 B | profundidade_max=4 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100/100 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+
+[resumo] N=100 | reps=10 | chaves_extremas=100%
+  nivel=nenhum   | media=3205.5 ns | mediana=3223.5 ns | min=2829 ns | max=3374 ns | posicao_certa_media=100.0000%
+  nivel=moderado | media=3262.7 ns | mediana=3224.0 ns | min=2947 ns | max=3681 ns | posicao_certa_media=100.0000%
+  nivel=alto     | media=3300.3 ns | mediana=3252.0 ns | min=3042 ns | max=3550 ns | posicao_certa_media=100.0000%
+[processo] codigo_de_saida=0
+[progresso] TXT - RESULTADOS DETALHADOS | teste 2/15 | N=500 | 10 repeticao(oes) por nivel (3 niveis)
+[cond] condicoes.h versao 2
+[cond] processo fixado no nucleo 4
+[cond] AVISO: sem permissao para subir prioridade (rode com sudo se quiser)
+[cond] huge pages transparentes desligadas neste processo (paginas de 4 KiB)
+[cond] CPU aquecida por 300 ms
+[cond] menor intervalo entre duas leituras do relogio: 13 ns (tempos proximos disso sao ruido)
+[cond] governador de frequencia: powersave
+[cond] frequencia atual do nucleo: 4100 MHz
+[cond] turbo: ligado
+[cond] carga do sistema (1 min): 0.91 em 8 nucleos  <-- AVISO: ha outros programas rodando, feche-os
+[cond] caches: L1d=32 KiB | L2=256 KiB | L3=8192 KiB
+[exp] quicksort | N=500 | reps=10 | chaves_extremas=100% | ordem=rotativa | entrada=varia a cada repeticao
+rep=1 | nivel=nenhum | N=500 | ordem_da_rep=nenhum,moderado,alto
+  tempo=17548 ns (0.0175 ms) | freq=4100 MHz
+  espaco: vetor=2000 B | pilha_pico=320 B | profundidade_max=5 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=moderado | N=500 | ordem_da_rep=nenhum,moderado,alto
+  tempo=17322 ns (0.0173 ms) | freq=4100 MHz
+  espaco: vetor=2000 B | pilha_pico=320 B | profundidade_max=5 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=alto | N=500 | ordem_da_rep=nenhum,moderado,alto
+  tempo=18583 ns (0.0186 ms) | freq=4099 MHz
+  espaco: vetor=2000 B | pilha_pico=320 B | profundidade_max=5 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=moderado | N=500 | ordem_da_rep=moderado,alto,nenhum
+  tempo=16883 ns (0.0169 ms) | freq=4100 MHz
+  espaco: vetor=2000 B | pilha_pico=320 B | profundidade_max=5 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=alto | N=500 | ordem_da_rep=moderado,alto,nenhum
+  tempo=18046 ns (0.0180 ms) | freq=4099 MHz
+  espaco: vetor=2000 B | pilha_pico=320 B | profundidade_max=5 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=nenhum | N=500 | ordem_da_rep=moderado,alto,nenhum
+  tempo=17243 ns (0.0172 ms) | freq=4099 MHz
+  espaco: vetor=2000 B | pilha_pico=320 B | profundidade_max=5 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=alto | N=500 | ordem_da_rep=alto,nenhum,moderado
+  tempo=18114 ns (0.0181 ms) | freq=4100 MHz
+  espaco: vetor=2000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=nenhum | N=500 | ordem_da_rep=alto,nenhum,moderado
+  tempo=17091 ns (0.0171 ms) | freq=4100 MHz
+  espaco: vetor=2000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=moderado | N=500 | ordem_da_rep=alto,nenhum,moderado
+  tempo=17715 ns (0.0177 ms) | freq=4100 MHz
+  espaco: vetor=2000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=nenhum | N=500 | ordem_da_rep=nenhum,moderado,alto
+  tempo=16776 ns (0.0168 ms) | freq=4100 MHz
+  espaco: vetor=2000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=moderado | N=500 | ordem_da_rep=nenhum,moderado,alto
+  tempo=17142 ns (0.0171 ms) | freq=4099 MHz
+  espaco: vetor=2000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=alto | N=500 | ordem_da_rep=nenhum,moderado,alto
+  tempo=33447 ns (0.0334 ms) | freq=4100 MHz
+  espaco: vetor=2000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=moderado | N=500 | ordem_da_rep=moderado,alto,nenhum
+  tempo=17571 ns (0.0176 ms) | freq=4100 MHz
+  espaco: vetor=2000 B | pilha_pico=320 B | profundidade_max=5 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=alto | N=500 | ordem_da_rep=moderado,alto,nenhum
+  tempo=18441 ns (0.0184 ms) | freq=4100 MHz
+  espaco: vetor=2000 B | pilha_pico=320 B | profundidade_max=5 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=nenhum | N=500 | ordem_da_rep=moderado,alto,nenhum
+  tempo=17390 ns (0.0174 ms) | freq=4099 MHz
+  espaco: vetor=2000 B | pilha_pico=320 B | profundidade_max=5 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=alto | N=500 | ordem_da_rep=alto,nenhum,moderado
+  tempo=18384 ns (0.0184 ms) | freq=4097 MHz
+  espaco: vetor=2000 B | pilha_pico=320 B | profundidade_max=5 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=nenhum | N=500 | ordem_da_rep=alto,nenhum,moderado
+  tempo=17053 ns (0.0171 ms) | freq=4067 MHz
+  espaco: vetor=2000 B | pilha_pico=320 B | profundidade_max=5 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=moderado | N=500 | ordem_da_rep=alto,nenhum,moderado
+  tempo=16855 ns (0.0169 ms) | freq=4096 MHz
+  espaco: vetor=2000 B | pilha_pico=320 B | profundidade_max=5 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=nenhum | N=500 | ordem_da_rep=nenhum,moderado,alto
+  tempo=17398 ns (0.0174 ms) | freq=4100 MHz
+  espaco: vetor=2000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=moderado | N=500 | ordem_da_rep=nenhum,moderado,alto
+  tempo=17007 ns (0.0170 ms) | freq=4100 MHz
+  espaco: vetor=2000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=alto | N=500 | ordem_da_rep=nenhum,moderado,alto
+  tempo=18504 ns (0.0185 ms) | freq=4099 MHz
+  espaco: vetor=2000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=moderado | N=500 | ordem_da_rep=moderado,alto,nenhum
+  tempo=17340 ns (0.0173 ms) | freq=4093 MHz
+  espaco: vetor=2000 B | pilha_pico=320 B | profundidade_max=5 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=alto | N=500 | ordem_da_rep=moderado,alto,nenhum
+  tempo=18352 ns (0.0184 ms) | freq=4099 MHz
+  espaco: vetor=2000 B | pilha_pico=320 B | profundidade_max=5 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=nenhum | N=500 | ordem_da_rep=moderado,alto,nenhum
+  tempo=17020 ns (0.0170 ms) | freq=4099 MHz
+  espaco: vetor=2000 B | pilha_pico=320 B | profundidade_max=5 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=alto | N=500 | ordem_da_rep=alto,nenhum,moderado
+  tempo=17732 ns (0.0177 ms) | freq=4100 MHz
+  espaco: vetor=2000 B | pilha_pico=320 B | profundidade_max=5 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=nenhum | N=500 | ordem_da_rep=alto,nenhum,moderado
+  tempo=16507 ns (0.0165 ms) | freq=4099 MHz
+  espaco: vetor=2000 B | pilha_pico=320 B | profundidade_max=5 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=moderado | N=500 | ordem_da_rep=alto,nenhum,moderado
+  tempo=16986 ns (0.0170 ms) | freq=4100 MHz
+  espaco: vetor=2000 B | pilha_pico=320 B | profundidade_max=5 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=nenhum | N=500 | ordem_da_rep=nenhum,moderado,alto
+  tempo=17103 ns (0.0171 ms) | freq=4099 MHz
+  espaco: vetor=2000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=moderado | N=500 | ordem_da_rep=nenhum,moderado,alto
+  tempo=17155 ns (0.0172 ms) | freq=4099 MHz
+  espaco: vetor=2000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=alto | N=500 | ordem_da_rep=nenhum,moderado,alto
+  tempo=18746 ns (0.0187 ms) | freq=4100 MHz
+  espaco: vetor=2000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500/500 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+
+[resumo] N=500 | reps=10 | chaves_extremas=100%
+  nivel=nenhum   | media=17112.9 ns | mediana=17097.0 ns | min=16507 ns | max=17548 ns | posicao_certa_media=100.0000%
+  nivel=moderado | media=17197.6 ns | mediana=17148.5 ns | min=16855 ns | max=17715 ns | posicao_certa_media=100.0000%
+  nivel=alto     | media=19834.9 ns | mediana=18412.5 ns | min=17732 ns | max=33447 ns | posicao_certa_media=100.0000%
+[processo] codigo_de_saida=0
+[progresso] TXT - RESULTADOS DETALHADOS | teste 3/15 | N=1000 | 10 repeticao(oes) por nivel (3 niveis)
+[cond] condicoes.h versao 2
+[cond] processo fixado no nucleo 2
+[cond] AVISO: sem permissao para subir prioridade (rode com sudo se quiser)
+[cond] huge pages transparentes desligadas neste processo (paginas de 4 KiB)
+[cond] CPU aquecida por 300 ms
+[cond] menor intervalo entre duas leituras do relogio: 13 ns (tempos proximos disso sao ruido)
+[cond] governador de frequencia: powersave
+[cond] frequencia atual do nucleo: 4099 MHz
+[cond] turbo: ligado
+[cond] carga do sistema (1 min): 0.91 em 8 nucleos  <-- AVISO: ha outros programas rodando, feche-os
+[cond] caches: L1d=32 KiB | L2=256 KiB | L3=8192 KiB
+[exp] quicksort | N=1000 | reps=10 | chaves_extremas=100% | ordem=rotativa | entrada=varia a cada repeticao
+rep=1 | nivel=nenhum | N=1000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=36118 ns (0.0361 ms) | freq=4099 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=moderado | N=1000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=35943 ns (0.0359 ms) | freq=4099 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=alto | N=1000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=38451 ns (0.0385 ms) | freq=4099 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=moderado | N=1000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=35828 ns (0.0358 ms) | freq=4100 MHz
+  espaco: vetor=4000 B | pilha_pico=480 B | profundidade_max=7 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=alto | N=1000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=38139 ns (0.0381 ms) | freq=4099 MHz
+  espaco: vetor=4000 B | pilha_pico=480 B | profundidade_max=7 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=nenhum | N=1000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=36451 ns (0.0365 ms) | freq=4099 MHz
+  espaco: vetor=4000 B | pilha_pico=480 B | profundidade_max=7 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=alto | N=1000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=39288 ns (0.0393 ms) | freq=4099 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=nenhum | N=1000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=36096 ns (0.0361 ms) | freq=4100 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=moderado | N=1000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=36447 ns (0.0364 ms) | freq=4099 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=nenhum | N=1000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=35872 ns (0.0359 ms) | freq=4100 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=moderado | N=1000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=35901 ns (0.0359 ms) | freq=4100 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=alto | N=1000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=39230 ns (0.0392 ms) | freq=4100 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=moderado | N=1000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=35602 ns (0.0356 ms) | freq=4099 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=alto | N=1000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=38238 ns (0.0382 ms) | freq=4100 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=nenhum | N=1000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=36239 ns (0.0362 ms) | freq=4100 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=alto | N=1000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=38119 ns (0.0381 ms) | freq=4100 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=nenhum | N=1000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=35709 ns (0.0357 ms) | freq=4099 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=moderado | N=1000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=36172 ns (0.0362 ms) | freq=4099 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=nenhum | N=1000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=35661 ns (0.0357 ms) | freq=4100 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=moderado | N=1000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=35346 ns (0.0353 ms) | freq=4099 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=alto | N=1000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=38416 ns (0.0384 ms) | freq=4100 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=moderado | N=1000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=35815 ns (0.0358 ms) | freq=4099 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=alto | N=1000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=38751 ns (0.0388 ms) | freq=4100 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=nenhum | N=1000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=36430 ns (0.0364 ms) | freq=4099 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=alto | N=1000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=37967 ns (0.0380 ms) | freq=4100 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=nenhum | N=1000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=35076 ns (0.0351 ms) | freq=4100 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=moderado | N=1000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=35508 ns (0.0355 ms) | freq=4100 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=nenhum | N=1000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=36367 ns (0.0364 ms) | freq=4099 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=moderado | N=1000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=36118 ns (0.0361 ms) | freq=4099 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=alto | N=1000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=39010 ns (0.0390 ms) | freq=4099 MHz
+  espaco: vetor=4000 B | pilha_pico=400 B | profundidade_max=6 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000/1000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+
+[resumo] N=1000 | reps=10 | chaves_extremas=100%
+  nivel=nenhum   | media=36001.9 ns | mediana=36107.0 ns | min=35076 ns | max=36451 ns | posicao_certa_media=100.0000%
+  nivel=moderado | media=35868.0 ns | mediana=35864.5 ns | min=35346 ns | max=36447 ns | posicao_certa_media=100.0000%
+  nivel=alto     | media=38560.9 ns | mediana=38433.5 ns | min=37967 ns | max=39288 ns | posicao_certa_media=100.0000%
+[processo] codigo_de_saida=0
+[progresso] TXT - RESULTADOS DETALHADOS | teste 4/15 | N=5000 | 10 repeticao(oes) por nivel (3 niveis)
+[cond] condicoes.h versao 2
+[cond] processo fixado no nucleo 1
+[cond] AVISO: sem permissao para subir prioridade (rode com sudo se quiser)
+[cond] huge pages transparentes desligadas neste processo (paginas de 4 KiB)
+[cond] CPU aquecida por 300 ms
+[cond] menor intervalo entre duas leituras do relogio: 13 ns (tempos proximos disso sao ruido)
+[cond] governador de frequencia: powersave
+[cond] frequencia atual do nucleo: 4099 MHz
+[cond] turbo: ligado
+[cond] carga do sistema (1 min): 0.92 em 8 nucleos  <-- AVISO: ha outros programas rodando, feche-os
+[cond] caches: L1d=32 KiB | L2=256 KiB | L3=8192 KiB
+[exp] quicksort | N=5000 | reps=10 | chaves_extremas=100% | ordem=rotativa | entrada=varia a cada repeticao
+rep=1 | nivel=nenhum | N=5000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=210694 ns (0.2107 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=moderado | N=5000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=210105 ns (0.2101 ms) | freq=4096 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=alto | N=5000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=223515 ns (0.2235 ms) | freq=4100 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=moderado | N=5000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=210512 ns (0.2105 ms) | freq=4100 MHz
+  espaco: vetor=20000 B | pilha_pico=480 B | profundidade_max=7 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=alto | N=5000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=224279 ns (0.2243 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=480 B | profundidade_max=7 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=nenhum | N=5000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=212097 ns (0.2121 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=480 B | profundidade_max=7 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=alto | N=5000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=228770 ns (0.2288 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=nenhum | N=5000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=215198 ns (0.2152 ms) | freq=4100 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=moderado | N=5000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=215212 ns (0.2152 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=nenhum | N=5000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=209268 ns (0.2093 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=480 B | profundidade_max=7 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=moderado | N=5000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=210855 ns (0.2109 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=480 B | profundidade_max=7 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=alto | N=5000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=224287 ns (0.2243 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=480 B | profundidade_max=7 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=moderado | N=5000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=210610 ns (0.2106 ms) | freq=4100 MHz
+  espaco: vetor=20000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=alto | N=5000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=224530 ns (0.2245 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=nenhum | N=5000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=211198 ns (0.2112 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=alto | N=5000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=231027 ns (0.2310 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=nenhum | N=5000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=210567 ns (0.2106 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=moderado | N=5000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=212481 ns (0.2125 ms) | freq=4100 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=nenhum | N=5000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=208440 ns (0.2084 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=moderado | N=5000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=209501 ns (0.2095 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=alto | N=5000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=223212 ns (0.2232 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=moderado | N=5000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=209441 ns (0.2094 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=alto | N=5000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=223815 ns (0.2238 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=nenhum | N=5000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=213679 ns (0.2137 ms) | freq=4100 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=alto | N=5000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=225722 ns (0.2257 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=nenhum | N=5000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=216058 ns (0.2161 ms) | freq=4100 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=moderado | N=5000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=212615 ns (0.2126 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=nenhum | N=5000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=212114 ns (0.2121 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=moderado | N=5000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=212426 ns (0.2124 ms) | freq=4100 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=alto | N=5000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=231558 ns (0.2316 ms) | freq=4099 MHz
+  espaco: vetor=20000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000/5000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+
+[resumo] N=5000 | reps=10 | chaves_extremas=100%
+  nivel=nenhum   | media=211931.3 ns | mediana=211647.5 ns | min=208440 ns | max=216058 ns | posicao_certa_media=100.0000%
+  nivel=moderado | media=211375.8 ns | mediana=210732.5 ns | min=209441 ns | max=215212 ns | posicao_certa_media=100.0000%
+  nivel=alto     | media=226071.5 ns | mediana=224408.5 ns | min=223212 ns | max=231558 ns | posicao_certa_media=100.0000%
+[processo] codigo_de_saida=0
+[progresso] TXT - RESULTADOS DETALHADOS | teste 5/15 | N=10000 | 10 repeticao(oes) por nivel (3 niveis)
+[cond] condicoes.h versao 2
+[cond] processo fixado no nucleo 2
+[cond] AVISO: sem permissao para subir prioridade (rode com sudo se quiser)
+[cond] huge pages transparentes desligadas neste processo (paginas de 4 KiB)
+[cond] CPU aquecida por 300 ms
+[cond] menor intervalo entre duas leituras do relogio: 13 ns (tempos proximos disso sao ruido)
+[cond] governador de frequencia: powersave
+[cond] frequencia atual do nucleo: 4099 MHz
+[cond] turbo: ligado
+[cond] carga do sistema (1 min): 0.92 em 8 nucleos  <-- AVISO: ha outros programas rodando, feche-os
+[cond] caches: L1d=32 KiB | L2=256 KiB | L3=8192 KiB
+[exp] quicksort | N=10000 | reps=10 | chaves_extremas=100% | ordem=rotativa | entrada=varia a cada repeticao
+rep=1 | nivel=nenhum | N=10000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=452676 ns (0.4527 ms) | freq=4099 MHz
+  espaco: vetor=40000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=moderado | N=10000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=455434 ns (0.4554 ms) | freq=4099 MHz
+  espaco: vetor=40000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=alto | N=10000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=482361 ns (0.4824 ms) | freq=4100 MHz
+  espaco: vetor=40000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=moderado | N=10000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=447403 ns (0.4474 ms) | freq=4100 MHz
+  espaco: vetor=40000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=alto | N=10000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=472811 ns (0.4728 ms) | freq=4100 MHz
+  espaco: vetor=40000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=nenhum | N=10000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=450671 ns (0.4507 ms) | freq=4099 MHz
+  espaco: vetor=40000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=alto | N=10000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=474493 ns (0.4745 ms) | freq=4099 MHz
+  espaco: vetor=40000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=nenhum | N=10000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=448430 ns (0.4484 ms) | freq=4099 MHz
+  espaco: vetor=40000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=moderado | N=10000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=453741 ns (0.4537 ms) | freq=4099 MHz
+  espaco: vetor=40000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=nenhum | N=10000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=453854 ns (0.4539 ms) | freq=4099 MHz
+  espaco: vetor=40000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=moderado | N=10000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=452096 ns (0.4521 ms) | freq=4100 MHz
+  espaco: vetor=40000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=alto | N=10000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=481470 ns (0.4815 ms) | freq=4100 MHz
+  espaco: vetor=40000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=moderado | N=10000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=449418 ns (0.4494 ms) | freq=4099 MHz
+  espaco: vetor=40000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=alto | N=10000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=474466 ns (0.4745 ms) | freq=4099 MHz
+  espaco: vetor=40000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=nenhum | N=10000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=451253 ns (0.4513 ms) | freq=4100 MHz
+  espaco: vetor=40000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=alto | N=10000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=484451 ns (0.4845 ms) | freq=4097 MHz
+  espaco: vetor=40000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=nenhum | N=10000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=451684 ns (0.4517 ms) | freq=4099 MHz
+  espaco: vetor=40000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=moderado | N=10000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=454035 ns (0.4540 ms) | freq=4099 MHz
+  espaco: vetor=40000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=nenhum | N=10000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=448322 ns (0.4483 ms) | freq=4099 MHz
+  espaco: vetor=40000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=moderado | N=10000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=449334 ns (0.4493 ms) | freq=4084 MHz
+  espaco: vetor=40000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=alto | N=10000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=477044 ns (0.4770 ms) | freq=4099 MHz
+  espaco: vetor=40000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=moderado | N=10000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=451633 ns (0.4516 ms) | freq=4099 MHz
+  espaco: vetor=40000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=alto | N=10000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=481942 ns (0.4819 ms) | freq=4099 MHz
+  espaco: vetor=40000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=nenhum | N=10000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=456247 ns (0.4562 ms) | freq=4099 MHz
+  espaco: vetor=40000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=alto | N=10000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=473578 ns (0.4736 ms) | freq=4100 MHz
+  espaco: vetor=40000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=nenhum | N=10000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=447655 ns (0.4477 ms) | freq=4100 MHz
+  espaco: vetor=40000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=moderado | N=10000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=450446 ns (0.4504 ms) | freq=4099 MHz
+  espaco: vetor=40000 B | pilha_pico=560 B | profundidade_max=8 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=nenhum | N=10000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=446809 ns (0.4468 ms) | freq=4087 MHz
+  espaco: vetor=40000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=moderado | N=10000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=450348 ns (0.4503 ms) | freq=4099 MHz
+  espaco: vetor=40000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=alto | N=10000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=478020 ns (0.4780 ms) | freq=4099 MHz
+  espaco: vetor=40000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000/10000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+
+[resumo] N=10000 | reps=10 | chaves_extremas=100%
+  nivel=nenhum   | media=450760.1 ns | mediana=450962.0 ns | min=446809 ns | max=456247 ns | posicao_certa_media=100.0000%
+  nivel=moderado | media=451388.8 ns | mediana=451039.5 ns | min=447403 ns | max=455434 ns | posicao_certa_media=100.0000%
+  nivel=alto     | media=478063.6 ns | mediana=477532.0 ns | min=472811 ns | max=484451 ns | posicao_certa_media=100.0000%
+[processo] codigo_de_saida=0
+[progresso] TXT - RESULTADOS DETALHADOS | teste 6/15 | N=50000 | 10 repeticao(oes) por nivel (3 niveis)
+[cond] condicoes.h versao 2
+[cond] processo fixado no nucleo 1
+[cond] AVISO: sem permissao para subir prioridade (rode com sudo se quiser)
+[cond] huge pages transparentes desligadas neste processo (paginas de 4 KiB)
+[cond] CPU aquecida por 300 ms
+[cond] menor intervalo entre duas leituras do relogio: 13 ns (tempos proximos disso sao ruido)
+[cond] governador de frequencia: powersave
+[cond] frequencia atual do nucleo: 4099 MHz
+[cond] turbo: ligado
+[cond] carga do sistema (1 min): 0.92 em 8 nucleos  <-- AVISO: ha outros programas rodando, feche-os
+[cond] caches: L1d=32 KiB | L2=256 KiB | L3=8192 KiB
+[exp] quicksort | N=50000 | reps=10 | chaves_extremas=100% | ordem=rotativa | entrada=varia a cada repeticao
+rep=1 | nivel=nenhum | N=50000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=2598447 ns (2.5984 ms) | freq=4099 MHz
+  espaco: vetor=200000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=moderado | N=50000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=2571209 ns (2.5712 ms) | freq=4099 MHz
+  espaco: vetor=200000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=alto | N=50000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=2714868 ns (2.7149 ms) | freq=4100 MHz
+  espaco: vetor=200000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=moderado | N=50000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=2586856 ns (2.5869 ms) | freq=4099 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=alto | N=50000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=2722271 ns (2.7223 ms) | freq=4099 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=nenhum | N=50000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=2595204 ns (2.5952 ms) | freq=4099 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=alto | N=50000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=2741016 ns (2.7410 ms) | freq=4100 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=nenhum | N=50000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=2588684 ns (2.5887 ms) | freq=4100 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=moderado | N=50000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=2588286 ns (2.5883 ms) | freq=4100 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=nenhum | N=50000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=2566476 ns (2.5665 ms) | freq=4100 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=moderado | N=50000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=2568136 ns (2.5681 ms) | freq=4100 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=alto | N=50000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=2831235 ns (2.8312 ms) | freq=4098 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=moderado | N=50000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=2618306 ns (2.6183 ms) | freq=4100 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=alto | N=50000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=2783611 ns (2.7836 ms) | freq=4100 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=nenhum | N=50000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=2749473 ns (2.7495 ms) | freq=4097 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=alto | N=50000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=2739525 ns (2.7395 ms) | freq=4099 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=nenhum | N=50000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=2650015 ns (2.6500 ms) | freq=4100 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=moderado | N=50000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=2696621 ns (2.6966 ms) | freq=4098 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=nenhum | N=50000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=2582752 ns (2.5828 ms) | freq=4100 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=moderado | N=50000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=2591494 ns (2.5915 ms) | freq=4099 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=alto | N=50000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=2749046 ns (2.7490 ms) | freq=4100 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=moderado | N=50000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=2574201 ns (2.5742 ms) | freq=4100 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=alto | N=50000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=2773001 ns (2.7730 ms) | freq=4099 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=nenhum | N=50000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=2647153 ns (2.6472 ms) | freq=4094 MHz
+  espaco: vetor=200000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=alto | N=50000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=2699246 ns (2.6992 ms) | freq=4100 MHz
+  espaco: vetor=200000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=nenhum | N=50000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=2558679 ns (2.5587 ms) | freq=4099 MHz
+  espaco: vetor=200000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=moderado | N=50000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=2553032 ns (2.5530 ms) | freq=4100 MHz
+  espaco: vetor=200000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=nenhum | N=50000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=2565861 ns (2.5659 ms) | freq=4100 MHz
+  espaco: vetor=200000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=moderado | N=50000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=2569370 ns (2.5694 ms) | freq=4099 MHz
+  espaco: vetor=200000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=alto | N=50000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=2705972 ns (2.7060 ms) | freq=4099 MHz
+  espaco: vetor=200000 B | pilha_pico=640 B | profundidade_max=9 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=50000/50000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+
+[resumo] N=50000 | reps=10 | chaves_extremas=100%
+  nivel=nenhum   | media=2610274.4 ns | mediana=2591944.0 ns | min=2558679 ns | max=2749473 ns | posicao_certa_media=100.0000%
+  nivel=moderado | media=2591751.1 ns | mediana=2580528.5 ns | min=2553032 ns | max=2696621 ns | posicao_certa_media=100.0000%
+  nivel=alto     | media=2745979.1 ns | mediana=2740270.5 ns | min=2699246 ns | max=2831235 ns | posicao_certa_media=100.0000%
+[processo] codigo_de_saida=0
+[progresso] TXT - RESULTADOS DETALHADOS | teste 7/15 | N=100000 | 10 repeticao(oes) por nivel (3 niveis)
+[cond] condicoes.h versao 2
+[cond] processo fixado no nucleo 6
+[cond] AVISO: sem permissao para subir prioridade (rode com sudo se quiser)
+[cond] huge pages transparentes desligadas neste processo (paginas de 4 KiB)
+[cond] CPU aquecida por 300 ms
+[cond] menor intervalo entre duas leituras do relogio: 13 ns (tempos proximos disso sao ruido)
+[cond] governador de frequencia: powersave
+[cond] frequencia atual do nucleo: 4100 MHz
+[cond] turbo: ligado
+[cond] carga do sistema (1 min): 0.92 em 8 nucleos  <-- AVISO: ha outros programas rodando, feche-os
+[cond] caches: L1d=32 KiB | L2=256 KiB | L3=8192 KiB
+[exp] quicksort | N=100000 | reps=10 | chaves_extremas=100% | ordem=rotativa | entrada=varia a cada repeticao
+rep=1 | nivel=nenhum | N=100000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=5476138 ns (5.4761 ms) | freq=4100 MHz
+  espaco: vetor=400000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=moderado | N=100000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=5479721 ns (5.4797 ms) | freq=4099 MHz
+  espaco: vetor=400000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=alto | N=100000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=5799906 ns (5.7999 ms) | freq=4100 MHz
+  espaco: vetor=400000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=moderado | N=100000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=5455095 ns (5.4551 ms) | freq=4099 MHz
+  espaco: vetor=400000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=alto | N=100000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=5854379 ns (5.8544 ms) | freq=4100 MHz
+  espaco: vetor=400000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=nenhum | N=100000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=5507494 ns (5.5075 ms) | freq=4099 MHz
+  espaco: vetor=400000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=alto | N=100000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=5868519 ns (5.8685 ms) | freq=4099 MHz
+  espaco: vetor=400000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=nenhum | N=100000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=5603780 ns (5.6038 ms) | freq=4099 MHz
+  espaco: vetor=400000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=moderado | N=100000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=5523177 ns (5.5232 ms) | freq=4100 MHz
+  espaco: vetor=400000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=nenhum | N=100000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=5420845 ns (5.4208 ms) | freq=4099 MHz
+  espaco: vetor=400000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=moderado | N=100000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=5408410 ns (5.4084 ms) | freq=4100 MHz
+  espaco: vetor=400000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=alto | N=100000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=5742246 ns (5.7422 ms) | freq=4100 MHz
+  espaco: vetor=400000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=moderado | N=100000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=5511268 ns (5.5113 ms) | freq=4100 MHz
+  espaco: vetor=400000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=alto | N=100000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=6082676 ns (6.0827 ms) | freq=4100 MHz
+  espaco: vetor=400000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=nenhum | N=100000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=5517942 ns (5.5179 ms) | freq=4099 MHz
+  espaco: vetor=400000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=alto | N=100000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=5775759 ns (5.7758 ms) | freq=4099 MHz
+  espaco: vetor=400000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=nenhum | N=100000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=5468559 ns (5.4686 ms) | freq=4100 MHz
+  espaco: vetor=400000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=moderado | N=100000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=5462622 ns (5.4626 ms) | freq=4100 MHz
+  espaco: vetor=400000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=nenhum | N=100000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=5484711 ns (5.4847 ms) | freq=4097 MHz
+  espaco: vetor=400000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=moderado | N=100000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=5369210 ns (5.3692 ms) | freq=4099 MHz
+  espaco: vetor=400000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=alto | N=100000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=6076514 ns (6.0765 ms) | freq=4098 MHz
+  espaco: vetor=400000 B | pilha_pico=720 B | profundidade_max=10 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=moderado | N=100000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=5519084 ns (5.5191 ms) | freq=4100 MHz
+  espaco: vetor=400000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=alto | N=100000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=5898668 ns (5.8987 ms) | freq=4099 MHz
+  espaco: vetor=400000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=nenhum | N=100000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=5543613 ns (5.5436 ms) | freq=4099 MHz
+  espaco: vetor=400000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=alto | N=100000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=5867929 ns (5.8679 ms) | freq=4100 MHz
+  espaco: vetor=400000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=nenhum | N=100000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=5457668 ns (5.4577 ms) | freq=4099 MHz
+  espaco: vetor=400000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=moderado | N=100000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=5462599 ns (5.4626 ms) | freq=4100 MHz
+  espaco: vetor=400000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=nenhum | N=100000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=5463771 ns (5.4638 ms) | freq=4100 MHz
+  espaco: vetor=400000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=moderado | N=100000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=5459181 ns (5.4592 ms) | freq=4100 MHz
+  espaco: vetor=400000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=alto | N=100000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=5774011 ns (5.7740 ms) | freq=4100 MHz
+  espaco: vetor=400000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=100000/100000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+
+[resumo] N=100000 | reps=10 | chaves_extremas=100%
+  nivel=nenhum   | media=5494452.1 ns | mediana=5480424.5 ns | min=5420845 ns | max=5603780 ns | posicao_certa_media=100.0000%
+  nivel=moderado | media=5465036.7 ns | mediana=5462610.5 ns | min=5369210 ns | max=5523177 ns | posicao_certa_media=100.0000%
+  nivel=alto     | media=5874060.7 ns | mediana=5861154.0 ns | min=5742246 ns | max=6082676 ns | posicao_certa_media=100.0000%
+[processo] codigo_de_saida=0
+[progresso] TXT - RESULTADOS DETALHADOS | teste 8/15 | N=250000 | 10 repeticao(oes) por nivel (3 niveis)
+[cond] condicoes.h versao 2
+[cond] processo fixado no nucleo 1
+[cond] AVISO: sem permissao para subir prioridade (rode com sudo se quiser)
+[cond] huge pages transparentes desligadas neste processo (paginas de 4 KiB)
+[cond] CPU aquecida por 300 ms
+[cond] menor intervalo entre duas leituras do relogio: 13 ns (tempos proximos disso sao ruido)
+[cond] governador de frequencia: powersave
+[cond] frequencia atual do nucleo: 4100 MHz
+[cond] turbo: ligado
+[cond] carga do sistema (1 min): 0.92 em 8 nucleos  <-- AVISO: ha outros programas rodando, feche-os
+[cond] caches: L1d=32 KiB | L2=256 KiB | L3=8192 KiB
+[exp] quicksort | N=250000 | reps=10 | chaves_extremas=100% | ordem=rotativa | entrada=varia a cada repeticao
+rep=1 | nivel=nenhum | N=250000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=14615308 ns (14.6153 ms) | freq=4099 MHz
+  espaco: vetor=1000000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=moderado | N=250000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=14991188 ns (14.9912 ms) | freq=4099 MHz
+  espaco: vetor=1000000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=alto | N=250000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=15379606 ns (15.3796 ms) | freq=4099 MHz
+  espaco: vetor=1000000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=moderado | N=250000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=14710952 ns (14.7110 ms) | freq=4100 MHz
+  espaco: vetor=1000000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=alto | N=250000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=15520947 ns (15.5209 ms) | freq=4099 MHz
+  espaco: vetor=1000000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=nenhum | N=250000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=14928091 ns (14.9281 ms) | freq=4100 MHz
+  espaco: vetor=1000000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=alto | N=250000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=15614126 ns (15.6141 ms) | freq=4100 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=nenhum | N=250000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=14549841 ns (14.5498 ms) | freq=4099 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=moderado | N=250000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=14658340 ns (14.6583 ms) | freq=4099 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=nenhum | N=250000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=14835669 ns (14.8357 ms) | freq=4100 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=moderado | N=250000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=14783665 ns (14.7837 ms) | freq=4100 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=alto | N=250000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=15817270 ns (15.8173 ms) | freq=4100 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=moderado | N=250000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=14918697 ns (14.9187 ms) | freq=4100 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=alto | N=250000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=15541835 ns (15.5418 ms) | freq=4099 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=nenhum | N=250000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=14712269 ns (14.7123 ms) | freq=4099 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=alto | N=250000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=15597108 ns (15.5971 ms) | freq=4099 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=nenhum | N=250000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=14736788 ns (14.7368 ms) | freq=4099 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=moderado | N=250000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=14697828 ns (14.6978 ms) | freq=4099 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=nenhum | N=250000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=14595356 ns (14.5954 ms) | freq=4100 MHz
+  espaco: vetor=1000000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=moderado | N=250000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=14471886 ns (14.4719 ms) | freq=4099 MHz
+  espaco: vetor=1000000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=alto | N=250000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=15519381 ns (15.5194 ms) | freq=4097 MHz
+  espaco: vetor=1000000 B | pilha_pico=800 B | profundidade_max=11 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=moderado | N=250000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=14715967 ns (14.7160 ms) | freq=4100 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=alto | N=250000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=15627913 ns (15.6279 ms) | freq=4100 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=nenhum | N=250000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=14752269 ns (14.7523 ms) | freq=4100 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=alto | N=250000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=15545173 ns (15.5452 ms) | freq=4099 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=nenhum | N=250000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=14652805 ns (14.6528 ms) | freq=4099 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=moderado | N=250000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=14781581 ns (14.7816 ms) | freq=4100 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=nenhum | N=250000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=17320547 ns (17.3205 ms) | freq=4096 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=moderado | N=250000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=14898002 ns (14.8980 ms) | freq=4100 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=alto | N=250000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=15808295 ns (15.8083 ms) | freq=3999 MHz
+  espaco: vetor=1000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=250000/250000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+
+[resumo] N=250000 | reps=10 | chaves_extremas=100%
+  nivel=nenhum   | media=14969894.3 ns | mediana=14724528.5 ns | min=14549841 ns | max=17320547 ns | posicao_certa_media=100.0000%
+  nivel=moderado | media=14762810.6 ns | mediana=14748774.0 ns | min=14471886 ns | max=14991188 ns | posicao_certa_media=100.0000%
+  nivel=alto     | media=15597165.4 ns | mediana=15571140.5 ns | min=15379606 ns | max=15817270 ns | posicao_certa_media=100.0000%
+[processo] codigo_de_saida=0
+[progresso] TXT - RESULTADOS DETALHADOS | teste 9/15 | N=500000 | 10 repeticao(oes) por nivel (3 niveis)
+[cond] condicoes.h versao 2
+[cond] processo fixado no nucleo 2
+[cond] AVISO: sem permissao para subir prioridade (rode com sudo se quiser)
+[cond] huge pages transparentes desligadas neste processo (paginas de 4 KiB)
+[cond] CPU aquecida por 300 ms
+[cond] menor intervalo entre duas leituras do relogio: 13 ns (tempos proximos disso sao ruido)
+[cond] governador de frequencia: powersave
+[cond] frequencia atual do nucleo: 4099 MHz
+[cond] turbo: ligado
+[cond] carga do sistema (1 min): 0.93 em 8 nucleos  <-- AVISO: ha outros programas rodando, feche-os
+[cond] caches: L1d=32 KiB | L2=256 KiB | L3=8192 KiB
+[exp] quicksort | N=500000 | reps=10 | chaves_extremas=100% | ordem=rotativa | entrada=varia a cada repeticao
+rep=1 | nivel=nenhum | N=500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=30697561 ns (30.6976 ms) | freq=4100 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=moderado | N=500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=31127832 ns (31.1278 ms) | freq=4099 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=alto | N=500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=32476861 ns (32.4769 ms) | freq=4099 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=moderado | N=500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=31152532 ns (31.1525 ms) | freq=4099 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=alto | N=500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=32692166 ns (32.6922 ms) | freq=4099 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=nenhum | N=500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=30830216 ns (30.8302 ms) | freq=4099 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=alto | N=500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=32354436 ns (32.3544 ms) | freq=4100 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=nenhum | N=500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=31117991 ns (31.1180 ms) | freq=4100 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=moderado | N=500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=30906212 ns (30.9062 ms) | freq=4099 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=nenhum | N=500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=30783369 ns (30.7834 ms) | freq=4100 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=moderado | N=500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=30604340 ns (30.6043 ms) | freq=4100 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=alto | N=500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=32271668 ns (32.2717 ms) | freq=4099 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=moderado | N=500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=30790743 ns (30.7907 ms) | freq=4099 MHz
+  espaco: vetor=2000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=alto | N=500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=32429020 ns (32.4290 ms) | freq=4099 MHz
+  espaco: vetor=2000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=nenhum | N=500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=30765223 ns (30.7652 ms) | freq=4099 MHz
+  espaco: vetor=2000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=alto | N=500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=32595669 ns (32.5957 ms) | freq=4100 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=nenhum | N=500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=30673544 ns (30.6735 ms) | freq=4100 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=moderado | N=500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=30686055 ns (30.6861 ms) | freq=4100 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=nenhum | N=500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=30447992 ns (30.4480 ms) | freq=4099 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=moderado | N=500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=30426582 ns (30.4266 ms) | freq=4099 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=alto | N=500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=32526084 ns (32.5261 ms) | freq=4100 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=moderado | N=500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=30965935 ns (30.9659 ms) | freq=4082 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=alto | N=500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=32375669 ns (32.3757 ms) | freq=4099 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=nenhum | N=500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=30792543 ns (30.7925 ms) | freq=4099 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=alto | N=500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=32515881 ns (32.5159 ms) | freq=4100 MHz
+  espaco: vetor=2000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=nenhum | N=500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=30895443 ns (30.8954 ms) | freq=4099 MHz
+  espaco: vetor=2000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=moderado | N=500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=30880336 ns (30.8803 ms) | freq=4099 MHz
+  espaco: vetor=2000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=nenhum | N=500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=31069958 ns (31.0700 ms) | freq=4100 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=moderado | N=500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=31029216 ns (31.0292 ms) | freq=4100 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=alto | N=500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=32825373 ns (32.8254 ms) | freq=4099 MHz
+  espaco: vetor=2000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=500000/500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+
+[resumo] N=500000 | reps=10 | chaves_extremas=100%
+  nivel=nenhum   | media=30807384.0 ns | mediana=30787956.0 ns | min=30447992 ns | max=31117991 ns | posicao_certa_media=100.0000%
+  nivel=moderado | media=30856978.3 ns | mediana=30893274.0 ns | min=30426582 ns | max=31152532 ns | posicao_certa_media=100.0000%
+  nivel=alto     | media=32506282.7 ns | mediana=32496371.0 ns | min=32271668 ns | max=32825373 ns | posicao_certa_media=100.0000%
+[processo] codigo_de_saida=0
+[progresso] TXT - RESULTADOS DETALHADOS | teste 10/15 | N=750000 | 10 repeticao(oes) por nivel (3 niveis)
+[cond] condicoes.h versao 2
+[cond] processo fixado no nucleo 1
+[cond] AVISO: sem permissao para subir prioridade (rode com sudo se quiser)
+[cond] huge pages transparentes desligadas neste processo (paginas de 4 KiB)
+[cond] CPU aquecida por 300 ms
+[cond] menor intervalo entre duas leituras do relogio: 13 ns (tempos proximos disso sao ruido)
+[cond] governador de frequencia: powersave
+[cond] frequencia atual do nucleo: 4100 MHz
+[cond] turbo: ligado
+[cond] carga do sistema (1 min): 0.93 em 8 nucleos  <-- AVISO: ha outros programas rodando, feche-os
+[cond] caches: L1d=32 KiB | L2=256 KiB | L3=8192 KiB
+[exp] quicksort | N=750000 | reps=10 | chaves_extremas=100% | ordem=rotativa | entrada=varia a cada repeticao
+rep=1 | nivel=nenhum | N=750000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=48369001 ns (48.3690 ms) | freq=4097 MHz
+  espaco: vetor=3000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=moderado | N=750000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=47918961 ns (47.9190 ms) | freq=4099 MHz
+  espaco: vetor=3000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=alto | N=750000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=50953500 ns (50.9535 ms) | freq=4099 MHz
+  espaco: vetor=3000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=moderado | N=750000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=47578159 ns (47.5782 ms) | freq=4099 MHz
+  espaco: vetor=3000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=alto | N=750000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=50044778 ns (50.0448 ms) | freq=4100 MHz
+  espaco: vetor=3000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=nenhum | N=750000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=47578172 ns (47.5782 ms) | freq=4100 MHz
+  espaco: vetor=3000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=alto | N=750000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=50302625 ns (50.3026 ms) | freq=4099 MHz
+  espaco: vetor=3000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=nenhum | N=750000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=47663922 ns (47.6639 ms) | freq=4100 MHz
+  espaco: vetor=3000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=moderado | N=750000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=47594178 ns (47.5942 ms) | freq=4099 MHz
+  espaco: vetor=3000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=nenhum | N=750000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=47505763 ns (47.5058 ms) | freq=4100 MHz
+  espaco: vetor=3000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=moderado | N=750000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=47858354 ns (47.8584 ms) | freq=4100 MHz
+  espaco: vetor=3000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=alto | N=750000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=50687501 ns (50.6875 ms) | freq=4100 MHz
+  espaco: vetor=3000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=moderado | N=750000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=47402322 ns (47.4023 ms) | freq=4099 MHz
+  espaco: vetor=3000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=alto | N=750000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=50727566 ns (50.7276 ms) | freq=4099 MHz
+  espaco: vetor=3000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=nenhum | N=750000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=47372566 ns (47.3726 ms) | freq=4100 MHz
+  espaco: vetor=3000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=alto | N=750000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=55289831 ns (55.2898 ms) | freq=4098 MHz
+  espaco: vetor=3000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=nenhum | N=750000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=47639470 ns (47.6395 ms) | freq=4099 MHz
+  espaco: vetor=3000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=moderado | N=750000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=47824184 ns (47.8242 ms) | freq=4097 MHz
+  espaco: vetor=3000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=nenhum | N=750000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=48129887 ns (48.1299 ms) | freq=4099 MHz
+  espaco: vetor=3000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=moderado | N=750000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=47076077 ns (47.0761 ms) | freq=4100 MHz
+  espaco: vetor=3000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=alto | N=750000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=50132261 ns (50.1323 ms) | freq=4100 MHz
+  espaco: vetor=3000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=moderado | N=750000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=47094731 ns (47.0947 ms) | freq=4100 MHz
+  espaco: vetor=3000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=alto | N=750000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=49669722 ns (49.6697 ms) | freq=4099 MHz
+  espaco: vetor=3000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=nenhum | N=750000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=47015033 ns (47.0150 ms) | freq=4100 MHz
+  espaco: vetor=3000000 B | pilha_pico=880 B | profundidade_max=12 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=alto | N=750000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=50148646 ns (50.1486 ms) | freq=4100 MHz
+  espaco: vetor=3000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=nenhum | N=750000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=49994768 ns (49.9948 ms) | freq=4100 MHz
+  espaco: vetor=3000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=moderado | N=750000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=47538396 ns (47.5384 ms) | freq=4099 MHz
+  espaco: vetor=3000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=nenhum | N=750000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=47980094 ns (47.9801 ms) | freq=4099 MHz
+  espaco: vetor=3000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=moderado | N=750000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=48150634 ns (48.1506 ms) | freq=4100 MHz
+  espaco: vetor=3000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=alto | N=750000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=50775263 ns (50.7753 ms) | freq=4100 MHz
+  espaco: vetor=3000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=750000/750000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+
+[resumo] N=750000 | reps=10 | chaves_extremas=100%
+  nivel=nenhum   | media=47924867.6 ns | mediana=47651696.0 ns | min=47015033 ns | max=49994768 ns | posicao_certa_media=100.0000%
+  nivel=moderado | media=47603599.6 ns | mediana=47586168.5 ns | min=47076077 ns | max=48150634 ns | posicao_certa_media=100.0000%
+  nivel=alto     | media=50873169.3 ns | mediana=50495063.0 ns | min=49669722 ns | max=55289831 ns | posicao_certa_media=100.0000%
+[processo] codigo_de_saida=0
+[progresso] TXT - RESULTADOS DETALHADOS | teste 11/15 | N=1000000 | 10 repeticao(oes) por nivel (3 niveis)
+[cond] condicoes.h versao 2
+[cond] processo fixado no nucleo 1
+[cond] AVISO: sem permissao para subir prioridade (rode com sudo se quiser)
+[cond] huge pages transparentes desligadas neste processo (paginas de 4 KiB)
+[cond] CPU aquecida por 300 ms
+[cond] menor intervalo entre duas leituras do relogio: 13 ns (tempos proximos disso sao ruido)
+[cond] governador de frequencia: powersave
+[cond] frequencia atual do nucleo: 4100 MHz
+[cond] turbo: ligado
+[cond] carga do sistema (1 min): 0.93 em 8 nucleos  <-- AVISO: ha outros programas rodando, feche-os
+[cond] caches: L1d=32 KiB | L2=256 KiB | L3=8192 KiB
+[exp] quicksort | N=1000000 | reps=10 | chaves_extremas=100% | ordem=rotativa | entrada=varia a cada repeticao
+rep=1 | nivel=nenhum | N=1000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=64341852 ns (64.3419 ms) | freq=4099 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=moderado | N=1000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=64262163 ns (64.2622 ms) | freq=4100 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=alto | N=1000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=68682697 ns (68.6827 ms) | freq=4099 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=moderado | N=1000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=65288518 ns (65.2885 ms) | freq=4099 MHz
+  espaco: vetor=4000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=alto | N=1000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=69631576 ns (69.6316 ms) | freq=4099 MHz
+  espaco: vetor=4000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=nenhum | N=1000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=65204050 ns (65.2040 ms) | freq=4100 MHz
+  espaco: vetor=4000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=alto | N=1000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=68811992 ns (68.8120 ms) | freq=4098 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=nenhum | N=1000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=65008239 ns (65.0082 ms) | freq=4099 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=moderado | N=1000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=64892076 ns (64.8921 ms) | freq=4100 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=nenhum | N=1000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=65643464 ns (65.6435 ms) | freq=4100 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=moderado | N=1000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=65872314 ns (65.8723 ms) | freq=4100 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=alto | N=1000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=70362108 ns (70.3621 ms) | freq=4099 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=moderado | N=1000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=65357567 ns (65.3576 ms) | freq=4100 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=alto | N=1000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=69223528 ns (69.2235 ms) | freq=4099 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=nenhum | N=1000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=65216500 ns (65.2165 ms) | freq=4100 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=alto | N=1000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=68759477 ns (68.7595 ms) | freq=4099 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=nenhum | N=1000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=65497507 ns (65.4975 ms) | freq=4099 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=moderado | N=1000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=65134398 ns (65.1344 ms) | freq=4099 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=nenhum | N=1000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=66044916 ns (66.0449 ms) | freq=4100 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=moderado | N=1000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=65691458 ns (65.6915 ms) | freq=4099 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=alto | N=1000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=68652035 ns (68.6520 ms) | freq=4100 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=moderado | N=1000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=65184942 ns (65.1849 ms) | freq=4099 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=alto | N=1000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=68641480 ns (68.6415 ms) | freq=4100 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=nenhum | N=1000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=65193044 ns (65.1930 ms) | freq=4100 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=alto | N=1000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=69396830 ns (69.3968 ms) | freq=4094 MHz
+  espaco: vetor=4000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=nenhum | N=1000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=65430207 ns (65.4302 ms) | freq=4098 MHz
+  espaco: vetor=4000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=moderado | N=1000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=65286356 ns (65.2864 ms) | freq=4097 MHz
+  espaco: vetor=4000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=nenhum | N=1000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=64913209 ns (64.9132 ms) | freq=4096 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=moderado | N=1000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=65081719 ns (65.0817 ms) | freq=4100 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=alto | N=1000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=68542131 ns (68.5421 ms) | freq=4100 MHz
+  espaco: vetor=4000000 B | pilha_pico=960 B | profundidade_max=13 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=1000000/1000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+
+[resumo] N=1000000 | reps=10 | chaves_extremas=100%
+  nivel=nenhum   | media=65249298.8 ns | mediana=65210275.0 ns | min=64341852 ns | max=66044916 ns | posicao_certa_media=100.0000%
+  nivel=moderado | media=65205151.1 ns | mediana=65235649.0 ns | min=64262163 ns | max=65872314 ns | posicao_certa_media=100.0000%
+  nivel=alto     | media=69070385.4 ns | mediana=68785734.5 ns | min=68542131 ns | max=70362108 ns | posicao_certa_media=100.0000%
+[processo] codigo_de_saida=0
+[progresso] TXT - RESULTADOS DETALHADOS | teste 12/15 | N=2500000 | 10 repeticao(oes) por nivel (3 niveis)
+[cond] condicoes.h versao 2
+[cond] processo fixado no nucleo 1
+[cond] AVISO: sem permissao para subir prioridade (rode com sudo se quiser)
+[cond] huge pages transparentes desligadas neste processo (paginas de 4 KiB)
+[cond] CPU aquecida por 300 ms
+[cond] menor intervalo entre duas leituras do relogio: 13 ns (tempos proximos disso sao ruido)
+[cond] governador de frequencia: powersave
+[cond] frequencia atual do nucleo: 4100 MHz
+[cond] turbo: ligado
+[cond] carga do sistema (1 min): 0.94 em 8 nucleos  <-- AVISO: ha outros programas rodando, feche-os
+[cond] caches: L1d=32 KiB | L2=256 KiB | L3=8192 KiB
+[exp] quicksort | N=2500000 | reps=10 | chaves_extremas=100% | ordem=rotativa | entrada=varia a cada repeticao
+rep=1 | nivel=nenhum | N=2500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=173195567 ns (173.1956 ms) | freq=4100 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=moderado | N=2500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=173129090 ns (173.1291 ms) | freq=4097 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=alto | N=2500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=183108556 ns (183.1086 ms) | freq=4099 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=moderado | N=2500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=171006290 ns (171.0063 ms) | freq=4099 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=alto | N=2500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=180115523 ns (180.1155 ms) | freq=4100 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=nenhum | N=2500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=172247674 ns (172.2477 ms) | freq=4098 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=alto | N=2500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=180245406 ns (180.2454 ms) | freq=4099 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=nenhum | N=2500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=171191398 ns (171.1914 ms) | freq=4094 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=moderado | N=2500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=171881567 ns (171.8816 ms) | freq=4099 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=nenhum | N=2500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=172841096 ns (172.8411 ms) | freq=4099 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=moderado | N=2500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=173073802 ns (173.0738 ms) | freq=4100 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=alto | N=2500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=185191619 ns (185.1916 ms) | freq=4100 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=moderado | N=2500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=172667129 ns (172.6671 ms) | freq=4097 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=alto | N=2500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=181667359 ns (181.6674 ms) | freq=4099 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=nenhum | N=2500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=173455236 ns (173.4552 ms) | freq=4097 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=alto | N=2500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=183692487 ns (183.6925 ms) | freq=4099 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=nenhum | N=2500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=175143236 ns (175.1432 ms) | freq=4100 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=moderado | N=2500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=174604379 ns (174.6044 ms) | freq=4099 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=nenhum | N=2500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=172665793 ns (172.6658 ms) | freq=4100 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=moderado | N=2500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=172750360 ns (172.7504 ms) | freq=4099 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=alto | N=2500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=182370287 ns (182.3703 ms) | freq=4098 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=moderado | N=2500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=173209607 ns (173.2096 ms) | freq=4099 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=alto | N=2500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=182868037 ns (182.8680 ms) | freq=4099 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=nenhum | N=2500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=174000045 ns (174.0000 ms) | freq=4096 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=alto | N=2500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=181552724 ns (181.5527 ms) | freq=4099 MHz
+  espaco: vetor=10000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=nenhum | N=2500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=177290513 ns (177.2905 ms) | freq=4100 MHz
+  espaco: vetor=10000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=moderado | N=2500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=173472769 ns (173.4728 ms) | freq=4099 MHz
+  espaco: vetor=10000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=nenhum | N=2500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=174281050 ns (174.2810 ms) | freq=4099 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=moderado | N=2500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=175636982 ns (175.6370 ms) | freq=4099 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=alto | N=2500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=186554098 ns (186.5541 ms) | freq=4099 MHz
+  espaco: vetor=10000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=2500000/2500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+
+[resumo] N=2500000 | reps=10 | chaves_extremas=100%
+  nivel=nenhum   | media=173631160.8 ns | mediana=173325401.5 ns | min=171191398 ns | max=177290513 ns | posicao_certa_media=100.0000%
+  nivel=moderado | media=173143197.5 ns | mediana=173101446.0 ns | min=171006290 ns | max=175636982 ns | posicao_certa_media=100.0000%
+  nivel=alto     | media=182736609.6 ns | mediana=182619162.0 ns | min=180115523 ns | max=186554098 ns | posicao_certa_media=100.0000%
+[processo] codigo_de_saida=0
+[progresso] TXT - RESULTADOS DETALHADOS | teste 13/15 | N=5000000 | 10 repeticao(oes) por nivel (3 niveis)
+[cond] condicoes.h versao 2
+[cond] processo fixado no nucleo 6
+[cond] AVISO: sem permissao para subir prioridade (rode com sudo se quiser)
+[cond] huge pages transparentes desligadas neste processo (paginas de 4 KiB)
+[cond] CPU aquecida por 300 ms
+[cond] menor intervalo entre duas leituras do relogio: 13 ns (tempos proximos disso sao ruido)
+[cond] governador de frequencia: powersave
+[cond] frequencia atual do nucleo: 4099 MHz
+[cond] turbo: ligado
+[cond] carga do sistema (1 min): 0.95 em 8 nucleos  <-- AVISO: ha outros programas rodando, feche-os
+[cond] caches: L1d=32 KiB | L2=256 KiB | L3=8192 KiB
+[exp] quicksort | N=5000000 | reps=10 | chaves_extremas=100% | ordem=rotativa | entrada=varia a cada repeticao
+rep=1 | nivel=nenhum | N=5000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=361894668 ns (361.8947 ms) | freq=4100 MHz
+  espaco: vetor=20000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=moderado | N=5000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=361372286 ns (361.3723 ms) | freq=4100 MHz
+  espaco: vetor=20000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=alto | N=5000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=377985082 ns (377.9851 ms) | freq=4099 MHz
+  espaco: vetor=20000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=moderado | N=5000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=358831287 ns (358.8313 ms) | freq=4099 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=alto | N=5000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=381015395 ns (381.0154 ms) | freq=4100 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=nenhum | N=5000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=361928908 ns (361.9289 ms) | freq=4097 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=alto | N=5000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=382878257 ns (382.8783 ms) | freq=4100 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=nenhum | N=5000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=360844244 ns (360.8442 ms) | freq=4099 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=moderado | N=5000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=360477834 ns (360.4778 ms) | freq=4093 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=nenhum | N=5000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=360015424 ns (360.0154 ms) | freq=4099 MHz
+  espaco: vetor=20000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=moderado | N=5000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=357928254 ns (357.9283 ms) | freq=4099 MHz
+  espaco: vetor=20000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=alto | N=5000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=380307590 ns (380.3076 ms) | freq=4099 MHz
+  espaco: vetor=20000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=moderado | N=5000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=360874156 ns (360.8742 ms) | freq=4099 MHz
+  espaco: vetor=20000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=alto | N=5000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=378999062 ns (378.9991 ms) | freq=4097 MHz
+  espaco: vetor=20000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=nenhum | N=5000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=360381209 ns (360.3812 ms) | freq=4099 MHz
+  espaco: vetor=20000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=alto | N=5000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=380102394 ns (380.1024 ms) | freq=4099 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=nenhum | N=5000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=358910121 ns (358.9101 ms) | freq=4100 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=moderado | N=5000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=358418173 ns (358.4182 ms) | freq=4099 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=nenhum | N=5000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=360073984 ns (360.0740 ms) | freq=4100 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=moderado | N=5000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=363312358 ns (363.3124 ms) | freq=4099 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=alto | N=5000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=381680850 ns (381.6809 ms) | freq=4099 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=moderado | N=5000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=361485358 ns (361.4854 ms) | freq=4099 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=alto | N=5000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=381709921 ns (381.7099 ms) | freq=4100 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=nenhum | N=5000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=361264479 ns (361.2645 ms) | freq=4099 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=alto | N=5000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=381539364 ns (381.5394 ms) | freq=4100 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=nenhum | N=5000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=362442509 ns (362.4425 ms) | freq=4099 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=moderado | N=5000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=361876269 ns (361.8763 ms) | freq=4100 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=nenhum | N=5000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=359408906 ns (359.4089 ms) | freq=4100 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=moderado | N=5000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=357774580 ns (357.7746 ms) | freq=4100 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=alto | N=5000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=377258809 ns (377.2588 ms) | freq=4100 MHz
+  espaco: vetor=20000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=5000000/5000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+
+[resumo] N=5000000 | reps=10 | chaves_extremas=100%
+  nivel=nenhum   | media=360716445.2 ns | mediana=360612726.5 ns | min=358910121 ns | max=362442509 ns | posicao_certa_media=100.0000%
+  nivel=moderado | media=360235055.5 ns | mediana=360675995.0 ns | min=357774580 ns | max=363312358 ns | posicao_certa_media=100.0000%
+  nivel=alto     | media=380347672.4 ns | mediana=380661492.5 ns | min=377258809 ns | max=382878257 ns | posicao_certa_media=100.0000%
+[processo] codigo_de_saida=0
+[progresso] TXT - RESULTADOS DETALHADOS | teste 14/15 | N=7500000 | 10 repeticao(oes) por nivel (3 niveis)
+[cond] condicoes.h versao 2
+[cond] processo fixado no nucleo 1
+[cond] AVISO: sem permissao para subir prioridade (rode com sudo se quiser)
+[cond] huge pages transparentes desligadas neste processo (paginas de 4 KiB)
+[cond] CPU aquecida por 300 ms
+[cond] menor intervalo entre duas leituras do relogio: 13 ns (tempos proximos disso sao ruido)
+[cond] governador de frequencia: powersave
+[cond] frequencia atual do nucleo: 4100 MHz
+[cond] turbo: ligado
+[cond] carga do sistema (1 min): 0.96 em 8 nucleos  <-- AVISO: ha outros programas rodando, feche-os
+[cond] caches: L1d=32 KiB | L2=256 KiB | L3=8192 KiB
+[exp] quicksort | N=7500000 | reps=10 | chaves_extremas=100% | ordem=rotativa | entrada=varia a cada repeticao
+rep=1 | nivel=nenhum | N=7500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=556280160 ns (556.2802 ms) | freq=4100 MHz
+  espaco: vetor=30000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=moderado | N=7500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=554968500 ns (554.9685 ms) | freq=4100 MHz
+  espaco: vetor=30000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=alto | N=7500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=584055311 ns (584.0553 ms) | freq=4100 MHz
+  espaco: vetor=30000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=moderado | N=7500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=568767346 ns (568.7673 ms) | freq=4100 MHz
+  espaco: vetor=30000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=alto | N=7500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=577713759 ns (577.7138 ms) | freq=4100 MHz
+  espaco: vetor=30000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=nenhum | N=7500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=553553089 ns (553.5531 ms) | freq=4099 MHz
+  espaco: vetor=30000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=alto | N=7500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=589365336 ns (589.3653 ms) | freq=4000 MHz
+  espaco: vetor=30000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=nenhum | N=7500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=557827940 ns (557.8279 ms) | freq=4098 MHz
+  espaco: vetor=30000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=moderado | N=7500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=564153345 ns (564.1533 ms) | freq=4100 MHz
+  espaco: vetor=30000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=nenhum | N=7500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=942348390 ns (942.3484 ms) | freq=2400 MHz
+  espaco: vetor=30000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=moderado | N=7500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=555043647 ns (555.0436 ms) | freq=4099 MHz
+  espaco: vetor=30000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=alto | N=7500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=589064552 ns (589.0646 ms) | freq=4000 MHz
+  espaco: vetor=30000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=moderado | N=7500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=549723451 ns (549.7235 ms) | freq=4099 MHz
+  espaco: vetor=30000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=alto | N=7500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=577497362 ns (577.4974 ms) | freq=4100 MHz
+  espaco: vetor=30000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=nenhum | N=7500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=552079303 ns (552.0793 ms) | freq=4100 MHz
+  espaco: vetor=30000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=alto | N=7500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=576392482 ns (576.3925 ms) | freq=4099 MHz
+  espaco: vetor=30000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=nenhum | N=7500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=547806735 ns (547.8067 ms) | freq=4099 MHz
+  espaco: vetor=30000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=moderado | N=7500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=550675338 ns (550.6753 ms) | freq=4100 MHz
+  espaco: vetor=30000000 B | pilha_pico=1040 B | profundidade_max=14 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=nenhum | N=7500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=550847403 ns (550.8474 ms) | freq=4100 MHz
+  espaco: vetor=30000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=moderado | N=7500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=550236245 ns (550.2362 ms) | freq=4100 MHz
+  espaco: vetor=30000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=alto | N=7500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=580114363 ns (580.1144 ms) | freq=4100 MHz
+  espaco: vetor=30000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=moderado | N=7500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=931897680 ns (931.8977 ms) | freq=2400 MHz
+  espaco: vetor=30000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=alto | N=7500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=577782638 ns (577.7826 ms) | freq=4098 MHz
+  espaco: vetor=30000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=nenhum | N=7500000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=547430934 ns (547.4309 ms) | freq=4100 MHz
+  espaco: vetor=30000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=alto | N=7500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=587895834 ns (587.8958 ms) | freq=4099 MHz
+  espaco: vetor=30000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=nenhum | N=7500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=555316726 ns (555.3167 ms) | freq=4099 MHz
+  espaco: vetor=30000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=moderado | N=7500000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=552579667 ns (552.5797 ms) | freq=4094 MHz
+  espaco: vetor=30000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=nenhum | N=7500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=554518728 ns (554.5187 ms) | freq=4099 MHz
+  espaco: vetor=30000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=moderado | N=7500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=554717160 ns (554.7172 ms) | freq=4100 MHz
+  espaco: vetor=30000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=alto | N=7500000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=583185977 ns (583.1860 ms) | freq=4100 MHz
+  espaco: vetor=30000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=7500000/7500000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+
+[resumo] N=7500000 | reps=10 | chaves_extremas=100%
+  nivel=nenhum   | media=591800940.8 ns | mediana=554035908.5 ns | min=547430934 ns | max=942348390 ns | posicao_certa_media=100.0000%
+  nivel=moderado | media=593276237.9 ns | mediana=554842830.0 ns | min=549723451 ns | max=931897680 ns | posicao_certa_media=100.0000%
+  nivel=alto     | media=582306761.4 ns | mediana=581650170.0 ns | min=576392482 ns | max=589365336 ns | posicao_certa_media=100.0000%
+[processo] codigo_de_saida=0
+[progresso] TXT - RESULTADOS DETALHADOS | teste 15/15 | N=10000000 | 10 repeticao(oes) por nivel (3 niveis)
+[cond] condicoes.h versao 2
+[cond] processo fixado no nucleo 4
+[cond] AVISO: sem permissao para subir prioridade (rode com sudo se quiser)
+[cond] huge pages transparentes desligadas neste processo (paginas de 4 KiB)
+[cond] CPU aquecida por 300 ms
+[cond] menor intervalo entre duas leituras do relogio: 13 ns (tempos proximos disso sao ruido)
+[cond] governador de frequencia: powersave
+[cond] frequencia atual do nucleo: 4099 MHz
+[cond] turbo: ligado
+[cond] carga do sistema (1 min): 0.98 em 8 nucleos  <-- AVISO: ha outros programas rodando, feche-os
+[cond] caches: L1d=32 KiB | L2=256 KiB | L3=8192 KiB
+[exp] quicksort | N=10000000 | reps=10 | chaves_extremas=100% | ordem=rotativa | entrada=varia a cada repeticao
+rep=1 | nivel=nenhum | N=10000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=750871783 ns (750.8718 ms) | freq=4099 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=moderado | N=10000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=747413153 ns (747.4132 ms) | freq=4100 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=1 | nivel=alto | N=10000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=784578644 ns (784.5786 ms) | freq=4100 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=moderado | N=10000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=754940475 ns (754.9405 ms) | freq=4099 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=alto | N=10000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=795619313 ns (795.6193 ms) | freq=4100 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=2 | nivel=nenhum | N=10000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=755483937 ns (755.4839 ms) | freq=4099 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=alto | N=10000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=795955679 ns (795.9557 ms) | freq=4099 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=nenhum | N=10000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=758839208 ns (758.8392 ms) | freq=4100 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=3 | nivel=moderado | N=10000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=757576820 ns (757.5768 ms) | freq=4099 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=nenhum | N=10000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=743639497 ns (743.6395 ms) | freq=4100 MHz
+  espaco: vetor=40000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=moderado | N=10000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=745165253 ns (745.1653 ms) | freq=4100 MHz
+  espaco: vetor=40000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=4 | nivel=alto | N=10000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=782746143 ns (782.7461 ms) | freq=4100 MHz
+  espaco: vetor=40000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=moderado | N=10000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=753365424 ns (753.3654 ms) | freq=4100 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=alto | N=10000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=790390096 ns (790.3901 ms) | freq=4100 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=5 | nivel=nenhum | N=10000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=768970205 ns (768.9702 ms) | freq=4099 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=alto | N=10000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=781483992 ns (781.4840 ms) | freq=4099 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=nenhum | N=10000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=742654430 ns (742.6544 ms) | freq=4100 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=6 | nivel=moderado | N=10000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=746047305 ns (746.0473 ms) | freq=4100 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=nenhum | N=10000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=808804604 ns (808.8046 ms) | freq=3799 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=moderado | N=10000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=830264996 ns (830.2650 ms) | freq=3900 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=7 | nivel=alto | N=10000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=829715336 ns (829.7153 ms) | freq=4000 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=moderado | N=10000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=1273962066 ns (1273.9621 ms) | freq=2399 MHz
+  espaco: vetor=40000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=alto | N=10000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=1335468742 ns (1335.4687 ms) | freq=2399 MHz
+  espaco: vetor=40000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=8 | nivel=nenhum | N=10000000 | ordem_da_rep=moderado,alto,nenhum
+  tempo=1273582261 ns (1273.5823 ms) | freq=2399 MHz
+  espaco: vetor=40000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=alto | N=10000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=1367346320 ns (1367.3463 ms) | freq=2400 MHz
+  espaco: vetor=40000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=nenhum | N=10000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=1330965200 ns (1330.9652 ms) | freq=2399 MHz
+  espaco: vetor=40000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=9 | nivel=moderado | N=10000000 | ordem_da_rep=alto,nenhum,moderado
+  tempo=1299379809 ns (1299.3798 ms) | freq=2400 MHz
+  espaco: vetor=40000000 B | pilha_pico=1120 B | profundidade_max=15 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=nenhum | N=10000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=1313619568 ns (1313.6196 ms) | freq=2400 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=moderado | N=10000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=1291339494 ns (1291.3395 ms) | freq=2400 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+rep=10 | nivel=alto | N=10000000 | ordem_da_rep=nenhum,moderado,alto
+  tempo=1370729119 ns (1370.7291 ms) | freq=2399 MHz
+  espaco: vetor=40000000 B | pilha_pico=1200 B | profundidade_max=16 | rss_delta=0 KiB | page_faults=0
+  corretude: posicao_certa=10000000/10000000 (100.0000%) | ordenado=sim | permutacao=ok
+             inversoes=0 (0.0000% dos pares) | pares_adjacentes_em_ordem=100.0000%
+
+[resumo] N=10000000 | reps=10 | chaves_extremas=100%
+  nivel=nenhum   | media=924743069.3 ns | mediana=763904706.5 ns | min=742654430 ns | max=1330965200 ns | posicao_certa_media=100.0000%
+  nivel=moderado | media=919945479.5 ns | mediana=756258647.5 ns | min=745165253 ns | max=1299379809 ns | posicao_certa_media=100.0000%
+  nivel=alto     | media=963403338.4 ns | mediana=795787496.0 ns | min=781483992 ns | max=1370729119 ns | posicao_certa_media=100.0000%
+[processo] codigo_de_saida=0

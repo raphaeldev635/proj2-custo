@@ -1,0 +1,9 @@
+# Artefatos gerados pelo experimento
+quick
+quick.exe
+.opt
+__pycache__/
+*.pyc
+evidencias/teste_01_txt_resultados_detalhados.txt
+evidencias/teste_02_csv_dados_estruturados.csv
+evidencias/*.log
